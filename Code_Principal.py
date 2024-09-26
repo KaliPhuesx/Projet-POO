@@ -18,3 +18,11 @@ liste_perso.append(p1)
 liste_perso.append(p2)
 for i in liste_perso:
     print(i)
+
+listePossessionArmes=[]
+for epee in liste_epee:
+    if len(listePossessionArmes)<6:
+        n=epee.getNom
+        listePossessionArmes.append(epee.getNom())
+        listePossessionArmes.append(epee.getNiveauAttaque())
+print("le guerrier possède : "+str(listePossessionArmes))

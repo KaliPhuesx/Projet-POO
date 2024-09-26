@@ -15,5 +15,5 @@ class Epee:
         return self.__niveauAttaque
 
     def __str__(self):
-        total=self.__nom+"  "+self.__niveauAttaque
+        total=self.__nom+"  "+str(self.__niveauAttaque)
         return total

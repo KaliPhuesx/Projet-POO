@@ -15,4 +15,4 @@ class Epee:
 
     def __str__(self):
         self.__nom+"  "+str(self.__niveauAttaque)
-        return ("L'épée se nomme : "+self.__nom+" et fait "++str(self.__niveauAttaque)+" points de dégâts.")
+        return ("L'épée se nomme : "+self.__nom+" et fait "+str(self.__niveauAttaque)+" points de dégâts.")

@@ -21,7 +21,7 @@ for i in liste_perso:
 
 listePossessionArmes=[]
 for epee in liste_epee:
-    if len(listePossessionArmes)<6:
+    if len(listePossessionArmes)<5:
         n=epee.getNom
         listePossessionArmes.append(epee.getNom())
         listePossessionArmes.append(epee.getNiveauAttaque())

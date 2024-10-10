@@ -1,4 +1,4 @@
-from Epee import *
+from Epee_class import *
 
 class Personnage:
     __nom=""

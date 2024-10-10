@@ -11,7 +11,7 @@ class Personnage:
     def getHp(self):
         return self.__hp
     
-    d def __str__(self):
+    def __str__(self):
         if self.__armeEnMain==None:
             return ("Le personnage s'appelle "+self.__nom+", il a "+str(self.__hp)+" points de vie")
         else:

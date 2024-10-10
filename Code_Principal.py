@@ -27,17 +27,15 @@ liste_perso.append(p2)
 for i in liste_perso:
     print(i)
 
-listePossessionArmes=[]
-p1.AjoutARMEinventaire(listePossessionArmes,epee1.getNom())
-if epee2 != None:
-    p1.AjoutARMEinventaire(listePossessionArmes,epee2.getNom())
-print("le guerrier possède : "+str(listePossessionArmes))
+p1.AjoutARMEinventaire(epee1)
+p1.AjoutARMEinventaire(epee2)
 
 nomA=input("choisi l'arme que tu possèdes : ")
-for EPEE in listePossessionArmes:
-    if nomA==EPEE:
-        p1.choisirArmeEnMain(EPEE)
+p1.choisirArmeEnMain(nomA)
 print(p1)
+
+p1.attaque(p2)
+print(p2)
 
 window = Tk()
 window.geometry("1280x720")

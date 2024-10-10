@@ -1,6 +1,7 @@
 class Personnage:
     __name = ""
     __hp = 0
+    __armeEnMain=None
     
     def __init__(self, name, hp):
         self.__name = name

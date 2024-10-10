@@ -1,0 +1,4 @@
+Choisir votre personnage : Conan, Lannister ou Oui-Oui
+Vous traversez une forêt quand vous trouvez une épée : c'est Excalibur. Vous la ramassez (A), Vous la laissez (B), Vous la cachez (C)
+Vous continuez votre chemin. Vous rencontrez un méchant : Vous engagez la conversation (A), Vous le combattez (B), Vous fuyez (C)
+Quelle arme choisissez-vous pour combattre ?

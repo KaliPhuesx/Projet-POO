@@ -20,9 +20,11 @@ for i in liste_perso:
     print(i)
 
 listePossessionArmes=[]
-for epee in liste_epee:
-    if len(listePossessionArmes)<5:
-        n=epee.getNom
-        listePossessionArmes.append(epee.getNom())
-        listePossessionArmes.append(epee.getNiveauAttaque())
+p1.AjoutARMEinventaire(listePossessionArmes,epee1.getNom())
 print("le guerrier possède : "+str(listePossessionArmes))
+
+nomA=input("choisi l'arme que tu possèdes : ")
+for EPEE in listePossessionArmes:
+    if nomA==EPEE:
+        p1.choisirArmeEnMain(EPEE)
+print(p1)

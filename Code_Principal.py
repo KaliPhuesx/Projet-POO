@@ -2,6 +2,13 @@ from Personnage_class import *
 from Epee_class import *
 from tkinter import * 
 
+def histoire():
+    file = open("histoire.txt", "r",encoding="utf-8")
+    liste = file.readlines()
+    file.close()
+    print(liste[0])
+    liste.pop(0)
+
 p1=Personnage("Conan",78)
 p2=Personnage("Lannister",45)
 epee1=Epee("Excalibur", 7)

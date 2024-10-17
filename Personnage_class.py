@@ -49,3 +49,5 @@ class Personnage:
         if len(self.__listePossessionArmes)<5:
             self.__listePossessionArmes.append(epee)
 
+    def getlistepossessionarmes(self):
+            return self.__listePossessionArmes

@@ -1,5 +1,5 @@
-from Personnage import *
-from Epee import *
+from Personnage_class import *
+from Epee_class import *
 from tkinter import *
 from tkinter import messagebox
 

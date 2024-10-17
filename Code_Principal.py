@@ -40,6 +40,11 @@ def REPONSE():
         for perso in liste_perso:
             if SAISIE==perso.getnom():
                 persoChoisi=perso
+        if persoChoisi==None:
+            messagebox.showinfo(title="EXTRA", message="Tu n'es pas le héros de cette histoire.")
+            window.destroy()
+            FenetreValider.destroy()
+            return
     if compteur==2:
         if SAISIE=="A":
             persoChoisi.AjoutARMEinventaire(excalibur)
